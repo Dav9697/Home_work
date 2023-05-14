@@ -78,3 +78,117 @@ a{
 a:hover{
 	background-color:#2b7a8d ;
 }
+.InfoDiv{
+	width: 75%;
+	height: 1050px;
+/*	background-color: red;*/
+	margin-top: 10px;
+	margin-left: 8px;
+	display:inline-block;
+}
+.newsDiv{
+	width: 20%;
+	height: 1050px;
+	display:inline-block;
+	background-color: red;
+	margin-left: 30px;
+}
+.tamplateInfoDiv, .greyDiv{
+	width: 100%;
+	background-color: #f6f6f6;
+	height: 50px;
+	border-bottom: 2px solid #b7b8bc;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	font-style:inherit ;
+}
+h2{
+	color: #2b7a8d;
+	line-height: 40%;
+	margin-left: 20px;
+
+}
+.firstParagraph, .secondParagraph{
+	margin-left: 15px;
+	font-size: 22px;
+}
+.bluePar{
+	color: #2b7a8d;
+}
+.secondParagraph{
+	margin-top: 50px;
+}
+.InformationDiv{
+	width: 96%;
+	height: 50px;
+	background-color: #f6f6f6;
+	margin-left: 2%;
+	margin-top: 95px;
+	
+
+}
+.read, .comments, .time{
+	font-size: 22px;
+	color: #2b7a8d;
+
+}
+.secondUl{
+	margin-left: 40%;
+	padding: 12px;
+}
+.time{
+	color: black;
+}
+
+.comments, .time{
+	margin-left: 60px;
+}
+.read:hover, .time:hover, .comments:hover{
+	background-color: #f6f6f6;
+}
+.Sample{
+	margin-top: 22px;
+}
+.code{
+	font-size: 22px;
+	margin-left: 20px;
+	color: #689c9e;
+}
+.codeDive{
+	height: 120px;
+	background-color: #f6f6f6;
+	width: 98%;
+	margin-left: 0.5%;
+}
+.codeParagraph{
+	margin-left: 20px;
+	font-style: inherit;
+	padding: 20px;
+
+}
+.lists{
+	margin-top:35px ;
+}
+ol{
+	margin-left: 20px;
+
+}
+.unorderedList{
+	margin-left: 25px;
+}
+.loremDiv{
+	height: 80px;
+	font-size: 20px;
+	font-style: inherit;
+}
+.Menu{
+	color: white;
+}
+.greyDiv{
+	background-color: #b7b8bc;
+}
+.squareUl{
+	list-style-type: square;
+	font-size: 20px;
+}
