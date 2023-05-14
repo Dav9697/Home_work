@@ -1,0 +1,46 @@
+body, html {
+	margin:0;
+	padding: 0;
+	
+}
+header{
+	height: 110px;
+	background-color: #2b7a8d;
+	border-top-left-radius:30px ;
+	border-top-right-radius:30px ;
+	margin: 0;
+
+
+  }
+  h1{
+    color: white;
+    font-size: 45px;
+   margin-top:20px;
+    border: none;
+    margin-left: 40px;
+   display: inline-block;
+   font-style: inherit;
+
+}
+.grey{
+	color:#c0ced1 ;
+}
+.slogan{
+	margin-top:-30px;
+	margin-left: 55px;
+	font-size: 16px;
+	color: white;
+	font-style: inherit;
+}
+.search_bar{
+	margin-left: 76%;
+	margin-top: -50px;
+}
+.search, .submit{
+	height: 25px;
+
+}
+.submit{
+	width: 80px;
+	height: 30px;
+}
