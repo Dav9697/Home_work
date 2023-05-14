@@ -88,10 +88,11 @@ a:hover{
 }
 .newsDiv{
 	width: 20%;
-	height: 1050px;
+	height: 1100px;
 	display:inline-block;
-	background-color: red;
+/*	background-color: red;*/
 	margin-left: 30px;
+	margin-top: 10px;
 }
 .tamplateInfoDiv, .greyDiv{
 	width: 100%;
@@ -134,7 +135,7 @@ h2{
 
 }
 .secondUl{
-	margin-left: 40%;
+	margin-left: 30%;
 	padding: 12px;
 }
 .time{
@@ -154,17 +155,21 @@ h2{
 	font-size: 22px;
 	margin-left: 20px;
 	color: #689c9e;
+	margin-top: 20px;
+
 }
 .codeDive{
 	height: 120px;
 	background-color: #f6f6f6;
 	width: 98%;
 	margin-left: 0.5%;
+	padding: 10px;
 }
 .codeParagraph{
-	margin-left: 20px;
+	margin-left: 60px;
 	font-style: inherit;
-	padding: 20px;
+margin-left: 5px;
+
 
 }
 .lists{
@@ -187,8 +192,68 @@ ol{
 }
 .greyDiv{
 	background-color: #b7b8bc;
+
 }
 .squareUl{
-	list-style-type: square;
+	list-style-type: none;
 	font-size: 20px;
+	margin-left: -37px;
+}
+.squareLi{
+	margin-top: 25px;
+	font-size: 25px;
+	border-bottom: 1px solid #b7b8bc;
+	color: #2b7a8d;
+}
+.fa-square{
+	font-size: 18px;
+	color: #ececec;
+	margin-right: 10px;
+
+}
+.squareLi:hover{
+	cursor: pointer;
+}
+.WilliamPar{
+	font-size: 19px;
+	font-style: inherit;
+}
+.William{
+	margin-left: 60%;
+	margin-top: 40px;
+}
+.lastPar{
+	font-size: 19px;
+	font-style: inherit;
+}
+.BigDiv{
+	width: 100%;
+	height: 1120px;
+	margin-top: 15px;
+	display: flex;
+}
+.jam, .common{
+	font-size: 20px;
+	color:  #b7b8bc;
+	margin-right: 5px;
+
+}
+.common{
+	font-size: 68px;
+	display: inline-block;
+	margin-left: 13px;
+}
+.commonDiv{
+	width: 8%;
+	height: 80px;
+	display: inline-block;
+
+}
+.displayDiv{
+	width: 90%;
+	height: 80px;
+	display: inline-block;
+}
+.flexDiv{
+	display: flex;
 }
