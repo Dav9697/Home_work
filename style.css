@@ -57,9 +57,8 @@ nav ul {
 
 }
 nav ul li {
-display: inline-block;
-/*  margin-bottom: -10px;*/
-/*  margin-bottom: -10px;*/
+float: left;
+
 
   
 }
@@ -81,16 +80,14 @@ a:hover{
 .InfoDiv{
 	width: 75%;
 	height: 1050px;
-/*	background-color: red;*/
 	margin-top: 10px;
 	margin-left: 8px;
-	display:inline-block;
+float: left;
 }
 .newsDiv{
 	width: 20%;
 	height: 1100px;
-	display:inline-block;
-/*	background-color: red;*/
+float: left;
 	margin-left: 30px;
 	margin-top: 10px;
 }
@@ -246,14 +243,11 @@ ol{
 .commonDiv{
 	width: 8%;
 	height: 80px;
-	display: inline-block;
+  float: left;
 
 }
 .displayDiv{
 	width: 90%;
 	height: 80px;
-	display: inline-block;
-}
-.flexDiv{
-	display: flex;
+float: left;
 }
