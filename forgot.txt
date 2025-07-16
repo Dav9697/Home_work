@@ -1,4 +1,3 @@
 Hello world
-commit git reveert
 
 hello
